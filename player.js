@@ -120,7 +120,7 @@ class AudioPlaylistPlayer extends HTMLElement {
             <span class="text-left">Seek</span> <input type="range" id="seek-slider" class="neon-text" min="0" value="0">
             <audio id="audio-player" preload="auto" crossOrigin="anonymous"></audio>
             <span class="text-left">Volume</span> <input id="volume-slider" type="range" class="neon-text" min="0" max="1" step="0.01" value="1">
-            <button id="play-pause-btn">Pause</button>
+            <button id="play-pause-btn">▶︎‖</button>
             <div id="current-track-info">Ready to play...</div>
             <ul id="playlist-list"></ul>
           </div>
